@@ -733,6 +733,37 @@
         margin-top: 2rem;
       }
 
+      .cta-detail-row {
+        display: flex;
+        gap: 1rem;
+        padding: 1rem 0;
+        border-bottom: 0.5px solid var(--border);
+        align-items: flex-start;
+      }
+
+      .cta-detail-row:last-child {
+        border-bottom: none;
+      }
+
+      .detail-label {
+        font-size: 14px;
+        color: var(--text-light);
+        min-width: 80px;
+        padding-top: 2px;
+      }
+
+      .detail-value {
+        font-size: 14px;
+        color: var(--text-dark);
+        line-height: 1.6;
+      }
+
+      .detail-value a {
+        color: var(--forest);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
       .inquiry-form-wrap {
         position: relative;
       }
@@ -1017,12 +1048,12 @@
       <div class="hero-text">
         <div class="hero-eyebrow">Portland, Oregon</div>
         <h1 class="hero-h1">
-          A beautiful space to <em>gather, create</em> & connect.
+          A beautiful space to <em>gather, create & connect.</em>
         </h1>
         <p class="hero-desc">
-          A sun-drenched 1,000 sq ft studio inside a remodeled 1946 Atomic
-          Garage — available for team offsites, workshops, photo shoots, and
-          private events.
+          A sun-drenched 1,000 sq ft studio inside a remodeled 1949 Atomic
+          Garage—available for team offsites, workshops, pop-up events, yoga
+          classes, community gatherings, photo shoots, and more.
         </p>
         <div class="hero-btns">
           <a
@@ -1045,12 +1076,12 @@
         <span class="stat-label">Square feet</span>
       </div>
       <div class="stat">
-        <span class="stat-num">10–100</span>
-        <span class="stat-label">Guests</span>
+        <span class="stat-num">36 seated</span>
+        <span class="stat-label">100+ standing</span>
       </div>
       <div class="stat">
-        <span class="stat-num">1946</span>
-        <span class="stat-label">Historic Atomic Garage</span>
+        <span class="stat-num">Fully styled</span>
+        <span class="stat-label">Event ready</span>
       </div>
       <div class="stat">
         <span class="stat-num">NE PDX</span>
@@ -1066,16 +1097,18 @@
           Light-filled, warm, and unlike anywhere else in Portland.
         </h2>
         <p class="about-body">
-          Housed in the historic 1946 Atomic Garage, Willow Haus features
+          Housed in the historic 1949 Atomic Garage, Willow Haus features
           soaring arched ceilings and a wall of south-facing windows that flood
-          the space with natural light throughout the day. Inside you'll find a
-          full kitchen with a large island, a styled living room with a working
-          electric fireplace, and flexible table-and-chair configurations for
-          workshops, meetings, and gatherings of all kinds.
+          the space with natural light throughout the day. This isn't a blank
+          canvas—it's a thoughtfully designed and curated space, complete with a
+          custom kitchen and large island, curated art, styled furnishings,
+          seating for up to 36 at the main table, plus a curated living room and
+          library nook perfect for smaller conversations and intimate
+          gatherings.
         </p>
         <p class="about-body">
-          It's the kind of space that makes your team actually want to show up —
-          and that looks stunning in photos.
+          It's the kind of space that makes your guests actually want to show
+          up—and that looks stunning in photos.
         </p>
         <a
           href="https://www.peerspace.com/profiles/660f538dc51fda85db6f0af3"
@@ -1152,7 +1185,6 @@
             <li>Intimate dinners</li>
             <li>Engagement celebrations</li>
             <li>Creative circles</li>
-            <li>Yoga & sound healing sessions</li>
             <li>Retreat-style gatherings</li>
           </ul>
         </div>
@@ -1174,7 +1206,7 @@
             <li>Supper clubs</li>
             <li>Wine tastings</li>
             <li>Craft workshops</li>
-            <li>Wellness experiences</li>
+            <li>Fitness & yoga pop-ups</li>
             <li>Seasonal community dinners</li>
             <li>Artist talks</li>
           </ul>
@@ -1210,34 +1242,35 @@
           <h2 class="section-h2">Simple packages, flexible pricing.</h2>
         </div>
         <p class="packages-note">
-          All packages include tables, chairs, kitchen access, and parking.
-          Custom packages available.
+          All packages include furniture, tables, chairs, kitchen access,
+          dishware, and glassware. We can help connect you with local businesses
+          for catering, florals, and more.
         </p>
       </div>
       <div class="pkg-grid">
         <div class="pkg-card">
-          <span class="pkg-tag">Half-Day</span>
-          <div class="pkg-name">Offsite</div>
-          <div class="pkg-duration">4 hours</div>
+          <span class="pkg-tag">Half or Full Day</span>
+          <div class="pkg-name">Team Offsite</div>
+          <div class="pkg-duration">4 or 8 hours</div>
           <ul class="pkg-features">
-            <li>Tables & chairs for 10–100 guests</li>
-            <li>Coffee station setup</li>
-            <li>Kitchen access</li>
-            <li>Flexible layout</li>
-            <li>Street parking</li>
+            <li>Table & chairs for up to 36</li>
+            <li>Kitchen & island access</li>
+            <li>Dishware & glassware available</li>
+            <li>Flat screen TV for presentations</li>
           </ul>
           <a href="mailto:events@willow.haus" class="pkg-btn">Inquire</a>
         </div>
         <div class="pkg-card featured">
-          <span class="pkg-tag">Full-Day</span>
-          <div class="pkg-name">Team Retreat</div>
-          <div class="pkg-duration">8 hours</div>
+          <span class="pkg-tag">Private Event</span>
+          <div class="pkg-name">Celebration</div>
+          <div class="pkg-duration">Flexible hours</div>
           <ul class="pkg-features">
-            <li>Full meeting setup</li>
+            <li>Table & chairs for up to 36 seated</li>
+            <li>100+ capacity for standing events</li>
             <li>Kitchen & island access</li>
-            <li>Flexible layout all day</li>
+            <li>Dishware & glassware available</li>
             <li>Fireplace & living room</li>
-            <li>Street parking</li>
+            <li>Flexible furniture layout</li>
           </ul>
           <a href="mailto:events@willow.haus" class="pkg-btn">Inquire</a>
         </div>
@@ -1247,9 +1280,9 @@
           <div class="pkg-duration">Hourly or half-day</div>
           <ul class="pkg-features">
             <li>Photo & video shoots</li>
-            <li>Styled living room</li>
+            <li>Styled living room & curated furnishings</li>
             <li>South-facing natural light</li>
-            <li>Kitchen island</li>
+            <li>Kitchen island & dishware available</li>
             <li>Also book via Peerspace</li>
           </ul>
           <a
@@ -1262,7 +1295,7 @@
       </div>
       <div class="pkg-custom">
         <p>
-          Looking for something custom — a recurring booking, a craft workshop
+          Looking for something custom—a recurring booking, a craft workshop
           add-on, or a company rate?
         </p>
         <a href="mailto:events@willow.haus">Let's talk → events@willow.haus</a>
@@ -1276,7 +1309,7 @@
         classes, wine tastings, and team offsites — it works beautifully for all
         of them."
       </blockquote>
-      <cite>— Willow Haus, Portland, Oregon</cite>
+      <cite>— Lia Griffith, Willow Haus</cite>
       <!-- Replace with a real client testimonial when available -->
     </section>
 
@@ -1286,9 +1319,7 @@
         <p class="section-label">Book the Haus</p>
         <h2 class="section-h2">Tell us about your gathering.</h2>
         <p class="inquiry-sub">
-          Fill out the form and we'll get back to you within 24 hours. For
-          urgent requests, email us directly at
-          <a href="mailto:events@willow.haus">events@willow.haus</a>.
+          Fill out the form and we'll get back to you within 24 hours.
         </p>
         <div class="inquiry-details">
           <div class="cta-detail-row">
