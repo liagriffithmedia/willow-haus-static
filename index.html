@@ -3,13 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Willow Haus — Portland Event & Studio Space</title>
+    <title>Willow Haus — Portland Event &amp; Studio Space | NE Portland</title>
+    <meta name="description" content="Willow Haus is a 1,000 sq ft sun-drenched studio in NE Portland available for team offsites, workshops, photo shoots, private dinners, yoga classes, and more. Located at 715 NE Lawrence Ave." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://willow.haus/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://willow.haus/" />
+    <meta property="og:title" content="Willow Haus — Portland Event &amp; Studio Space" />
+    <meta property="og:description" content="A sun-drenched 1,000 sq ft studio in NE Portland inside a remodeled 1949 Atomic Garage. Available for team offsites, workshops, photo shoots, private gatherings, and more." />
+    <meta property="og:image" content="https://willow.haus/images/hero-1200.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="900" />
+    <meta property="og:image:alt" content="Willow Haus interior — arched ceilings and south-facing windows" />
+    <meta property="og:site_name" content="Willow Haus" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Willow Haus — Portland Event &amp; Studio Space" />
+    <meta name="twitter:description" content="A sun-drenched 1,000 sq ft studio in NE Portland. Available for team offsites, workshops, photo shoots, private gatherings, and more." />
+    <meta name="twitter:image" content="https://willow.haus/images/hero-1200.jpg" />
+    <meta name="twitter:image:alt" content="Willow Haus interior — arched ceilings and south-facing windows" />
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["LocalBusiness", "EventVenue"],
+      "name": "Willow Haus",
+      "description": "A sun-drenched 1,000 sq ft studio inside a remodeled 1949 Atomic Garage in NE Portland, available for team offsites, workshops, photo shoots, private gatherings, yoga classes, and more.",
+      "url": "https://willow.haus/",
+      "telephone": "",
+      "email": "events@willow.haus",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "715 NE Lawrence Ave., Suite 101",
+        "addressLocality": "Portland",
+        "addressRegion": "OR",
+        "postalCode": "97232",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.5267,
+        "longitude": -122.6522
+      },
+      "image": [
+        "https://willow.haus/images/hero-1200.jpg",
+        "https://willow.haus/images/full-interior-1200.jpg",
+        "https://willow.haus/images/living-room-1200.jpg"
+      ],
+      "logo": "https://willow.haus/images/willow-haus-wordmark-2x.png",
+      "sameAs": [
+        "https://www.instagram.com/insidewillowhaus",
+        "https://www.peerspace.com/profiles/660f538dc51fda85db6f0af3"
+      ],
+      "maximumAttendeeCapacity": 100,
+      "amenityFeature": [
+        {"@type": "LocationFeatureSpecification", "name": "Full Kitchen", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Kitchen Island", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Natural Light", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Fireplace", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Flat Screen TV", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Dishware & Glassware", "value": true},
+        {"@type": "LocationFeatureSpecification", "name": "Flexible Furniture Layout", "value": true}
+      ],
+      "currenciesAccepted": "USD",
+      "openingHours": "Mo-Su 00:00-23:59",
+      "priceRange": "$$"
+    }
+    </script>
+
     <style>
       *,
       *::before,
@@ -1042,7 +1117,7 @@
   </head>
   <body>
     <!-- NAV -->
-    <nav>
+    <nav aria-label="Main navigation">
       <a href="/" class="nav-logo">
         <picture>
           <source
@@ -1082,15 +1157,16 @@
           <a
             href="https://www.peerspace.com/profiles/660f538dc51fda85db6f0af3"
             class="nav-cta"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             >Book Now</a
           >
         </li>
       </ul>
     </nav>
 
+    <main>
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero" aria-label="Introduction">
       <div class="hero-image">
         <picture>
           <source
@@ -1105,6 +1181,7 @@
             alt="Willow Haus interior — arched ceilings and south-facing windows"
             width="1200"
             height="900"
+            fetchpriority="high"
           />
         </picture>
       </div>
@@ -1122,7 +1199,7 @@
           <a
             href="https://www.peerspace.com/profiles/660f538dc51fda85db6f0af3"
             class="btn-primary"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             >Book on Peerspace</a
           >
           <a href="mailto:events@willow.haus" class="btn-outline"
@@ -1133,7 +1210,7 @@
     </section>
 
     <!-- STATS BAR -->
-    <div class="stats-bar">
+    <div class="stats-bar" role="region" aria-label="Space highlights">
       <div class="stat">
         <span class="stat-num">1,000</span>
         <span class="stat-label">Square feet</span>
@@ -1176,7 +1253,7 @@
         <a
           href="https://www.peerspace.com/profiles/660f538dc51fda85db6f0af3"
           class="btn-outline"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           >View on Peerspace</a
         >
       </div>
@@ -1435,7 +1512,7 @@
           <a
             href="https://www.peerspace.com/profiles/660f538dc51fda85db6f0af3"
             class="pkg-btn"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             >Book on Peerspace</a
           >
         </div>
@@ -1484,7 +1561,7 @@
           <div class="cta-detail-row">
             <span class="detail-label">Instagram</span>
             <span class="detail-value"
-              ><a href="https://instagram.com/insidewillowhaus" target="_blank"
+              ><a href="https://instagram.com/insidewillowhaus" target="_blank" rel="noopener noreferrer"
                 >@insidewillowhaus</a
               ></span
             >
@@ -1494,7 +1571,7 @@
             <span class="detail-value"
               ><a
                 href="https://www.peerspace.com/profiles/660f538dc51fda85db6f0af3"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 >Peerspace →</a
               ></span
             >
@@ -1604,7 +1681,7 @@
               We typically respond within 24 hours. Feel free to browse our
               <a
                 href="https://www.peerspace.com/profiles/660f538dc51fda85db6f0af3"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 >Peerspace listing</a
               >
               for photos and availability.
@@ -1613,6 +1690,8 @@
         </div>
       </div>
     </section>
+
+    </main>
 
     <!-- FOOTER -->
     <footer>
@@ -1624,12 +1703,12 @@
         <li><a href="mailto:events@willow.haus">Contact</a></li>
       </ul>
       <div class="footer-social">
-        <a href="https://instagram.com/insidewillowhaus" target="_blank"
+        <a href="https://instagram.com/insidewillowhaus" target="_blank" rel="noopener noreferrer"
           >Instagram</a
         >
         <a
           href="https://www.peerspace.com/profiles/660f538dc51fda85db6f0af3"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           >Peerspace</a
         >
       </div>
